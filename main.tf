@@ -103,7 +103,7 @@ default = ["user5", "user6", "user7", "user8"]
 }
 
 resource "aws_ebs_volume" "eight" {
- availability_zone = "ap-southeast-1a"
+ availability_zone = "us-east-1a"
   size = 40
   tags = {
     Name = "ebs-001"
